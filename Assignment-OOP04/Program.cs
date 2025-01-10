@@ -213,7 +213,7 @@ namespace Assignment_OOP04
 
             #endregion
 
-            #region Second Project:
+            #region Second Project
 
             //Define Class Maths that has four methods: Add, Subtract, Multiply, and Divide, each of them takes two parameters.Call each method in Main().
             //Modify the program so that you do not have to create an instance of class to call the four methods.
@@ -236,19 +236,53 @@ namespace Assignment_OOP04
 
             #endregion
 
-            #region Third Project:
+            #region Third Project  
 
+            #region Q1
             //Duration D1 = new Duration(1, 30, 5);
-            //Console.WriteLine(D1.ToString()); 
+            //Console.WriteLine(D1.ToString());
 
             //Duration D2 = new Duration(3600);
-            //Console.WriteLine(D2.ToString());  
+            //Console.WriteLine(D2.ToString());
 
             //Duration D3 = new Duration(7800);
-            //Console.WriteLine(D3.ToString());  
+            //Console.WriteLine(D3.ToString());
 
-            //Duration D4 = new Duration(666);
-            //Console.WriteLine(D4.ToString());  
+            //Duration D4 = new Duration(666); 
+            //Console.WriteLine(D4.ToString());
+
+            #endregion
+
+            #region Q2
+            //Duration D5 = D1 + D2;
+            //Console.WriteLine(D5.ToString());
+
+            //Duration D6 = D1 + 7800;
+            //Console.WriteLine(D6.ToString());
+
+            //Duration D7 = 666 + D3;
+            //Console.WriteLine(D7.ToString());
+
+            //D3 = ++D1;
+            //Console.WriteLine(D3.ToString());
+
+            //D3 = --D2;
+            //Console.WriteLine(D3.ToString());
+
+            //D1 = D1 - D2;
+            //Console.WriteLine(D1.ToString());
+
+            //if (D1 > D2)
+            //    Console.WriteLine("D1 is greater than D2");
+            //if (D1 <= D2)
+            //    Console.WriteLine("D1 is less than or equal to D2");
+            //if (D1)
+            //    Console.WriteLine("D1 is non-zero");
+
+            //DateTime Obj = (DateTime)D1;
+            //Console.WriteLine($"Converted to DateTime: {Obj.ToLongTimeString()}");
+
+            #endregion
 
             #endregion
         }
